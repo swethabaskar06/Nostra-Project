@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantact</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="offer" id="offer">
+        <p>Sign Up and <strong> GET 20% OFF</strong> for your first Order </p>
+        <i class="fa-solid fa-xmark" id="offer_close"></i>
+    </section>
+
+    <header class="header" id="header">
+        <div class="logo">
+            <h1 class="logo">Nostra</h1>
+        </div>
+
+        <div class="menu-bar" id="menubar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-contant" id="menucontant">
+            <p><a href="index.html#hero-section">Home</a></p>
+            <p><a href="index.html#new-arrival">New Arrival</a></p>
+            <p><a href="index.html#most-wanted">Most Wanted</a></p>
+            <p><a href="collections.html">Collections</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+
+            <i class="fa-solid fa-xmark" id="menu_close"></i>
+        </div>
+
+        <div class="nav-links">
+            <p><a href="index.html#hero-section">Home</a></p>
+            <p><a href="index.html#new-arrival">New Arrival</a></p>
+            <p><a href="index.html#most-wanted">Most Wanted</a></p>
+            <p><a href="collections.html">Collections</a></p>
+            <p><a href="contact.html">Contact Us</a></p>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-intro">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-description">
+                Fill out the form below and we'll get back to you as soon as possible.
+            </p>
+        </div>
+
+        <form class="contact-form"> 
+            
+            <div class="form-group-container">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input id="phone" name="phone" class="form-input" placeholder="+91 XXXXXXXXXX" type="number" />
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+            </div>
+            <button class="form-submit">Send Message</button>
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
